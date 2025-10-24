@@ -1,3 +1,0 @@
-- [x] Integrate Clerk hooks into AuthContext.jsx to manage auth state with both Clerk and custom JWT
-- [x] Update Header.jsx to use Clerk's SignedIn/SignedOut components for sign-in, while keeping custom logout
-- [ ] Test the app to ensure Clerk sign-in works alongside custom auth
