@@ -1,4 +1,0 @@
-- [x] Fix route mounting in server.js for auth routes
-- [x] Run the backend server
-- [ ] Test the register endpoint with a sample POST request
-- [ ] Verify user registration in database
