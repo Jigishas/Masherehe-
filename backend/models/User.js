@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  avatar: {
+ /* avatar: {
     type: String,
     default: ''
   },
@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema({
   createdEvents: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Event'
-  }]
+  }]*/
 }, {
   timestamps: true
 });
