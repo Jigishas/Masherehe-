@@ -1,0 +1,6 @@
+- [x] Modify frontend/src/services/api.js to use real API calls for events instead of mock data (already done)
+- [x] Start backend server on port 5000
+- [x] Start frontend server (likely on port 5173) - running on port 5174
+- [x] Test event API endpoints (getEvents, getEvent, createEvent, joinEvent, leaveEvent, updateEvent, deleteEvent) for credibility and accuracy
+- [x] If CORS errors occur during testing, adjust CORS configuration in backend/server.js
+- [x] Verify all tests pass and no CORS issues remain
