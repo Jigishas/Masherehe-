@@ -37,8 +37,8 @@ const register = async (req, res) => {
 
         // Generate token
         const token = jwt.sign(
-            { user: { id: user._id } },
-            process.env.JWT_SECRET,
+            { user: { id: user.id } },
+            process.env.JWT_SECRET || 'your-secret-key',
             { expiresIn: '7d' }
         );
 
