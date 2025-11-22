@@ -132,3 +132,37 @@ masheree/
 ## License
 
 This project is licensed under the ISC License.
+
+## Usage
+
+- Register a new user or log in with existing credentials.
+- Browse or search for events in your area.
+- Create, update, or delete your own events.
+- Interact with events on the integrated map view.
+- Enjoy a responsive experience across devices.
+
+## Testing
+
+- Backend: No automated tests are currently defined.
+- Frontend: Run lint checks to catch code issues:
+  ```bash
+  cd frontend
+  npm run lint
+  ```
+
+## Troubleshooting
+
+- Ensure Node.js version 16 or higher is installed.
+- Make sure MongoDB is running locally or accessible via the configured URI.
+- If environment variables are missing or incorrect, the backend server will fail to start.
+- In case of port conflicts, adjust the PORT value in the `.env` file.
+- For frontend issues, clear cache or reinstall dependencies with:
+  ```bash
+  cd frontend
+  rm -rf node_modules
+  npm install
+  ```
+
+## Contact
+
+For questions or support, please open an issue or contact the maintainers.
